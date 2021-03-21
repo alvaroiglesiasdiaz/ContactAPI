@@ -1,0 +1,93 @@
+
+/*LOGIN, REGISTER, RECOVER, CREATE CARD/COLLECTION */
+body {
+
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: table;
+	background-color: black;
+	background: red;
+	background: -webkit-linear-gradient(rgb(9, 52, 90),rgb(17, 17, 17));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: -apple-system,BlinkMacSystemFont,
+	"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",
+	sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
+	"Noto Color Emoji";
+
+}
+/*background: -o-linear-gradient(top, blue, white);}*/
+/*FORMULARIO REGISTER*/
+.form {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: 30%;
+
+}
+.form i{
+	margin-left: -35px;
+	cursor: pointer;
+}
+input[type=text] {
+	width: 90%;
+	padding: 12px 30px 12px 25px;
+
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=password] {
+	width: 90%;
+	padding: 12px 35px 12px 25px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=email] {
+	width: 90%;
+	padding: 12px 30px 12px 25px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=file] {
+	width: 90%;
+	padding: 12px 30px 12px 25px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+.container{
+
+	max-width: 1000px;
+	margin-top: 3%;
+	width: 90%;
+	margin-right: -30px
+}
+
+.button {
+	background-color: #000; 
+	border: none; 
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	width: 90%;
+}
+
+.button1 {
+	background-color: transparent; 
+	color: white; 
+	border: 2px solid #fff;
+	font-size:20px;
+}
+
+.button1:hover {
+	background-color: #fff;
+	color: white;
+	color: black;
+}
+
